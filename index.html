@@ -33,7 +33,30 @@
 
     <h2>Visão geral</h2>
 
+    <button class="btn-adicionar">+ Adicionar lançamento</button>
+
+    <div class="formulario-lancamento">
+
+    <h3>Adicionar lançamento</h3>
+
+    <label for="descricao">Descrição</label>
+    <input type="text" id="descricao" placeholder="Ex: Mercado">
+
+    <label for="valor">Valor</label>
+    <input type="number" id="valor" placeholder="Ex: 150">
+
+    <label for="tipo">Tipo</label>
+    <select id="tipo">
+        <option value="gasto">Gasto</option>
+        <option value="entrada">Entrada</option>
+    </select>
+
+    <button class="btn-salvar">Adicionar</button>
+
+</div>
+
     <div class="cards-resumo">
+        
 
         <div class="card">
             <h3>Entradas</h3>
@@ -57,11 +80,18 @@
 
     </div>
 
+    <section class="lista-lancamentos">
+
+    <h3>Últimos lançamentos</h3>
+
+    </section>
+
 </section>
 
 </main>
 
 <script src="script.js"></script>
+
 </body>
 
 </html>
